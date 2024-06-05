@@ -1,0 +1,72 @@
+template-file-path: lex-web-ui.yaml
+parameters:
+  WebAppConfPositiveFeedback: Thumbs up
+  MinimizedButtonContent: ''
+  CodeBuildName: lex-web-ui
+  ConnectAttachChatTranscript: 'false'
+  BootstrapBucket: aws-bigdata-blog
+  ConnectPromptForNameMessage: Before starting a live chat, please tell me your name?
+  BootstrapPrefix: artifacts/aws-lex-web-ui/artifacts
+  MessageFont: ''
+  ConnectLiveChatTerms: live chat
+  WebAppConfNegativeFeedback: Thumbs down
+  WebAppAcmCertificateArn: ''
+  ConnectStartLiveChatLabel: Start Live Chat
+  ForceCognitoLogin: 'false'
+  ConnectInstanceId: ''
+  ConnectEndLiveChatLabel: End Live Chat
+  ConnectStartLiveChatIcon: people_alt
+  BotName: ''
+  WebAppPath: /parent.html
+  WebAppConfHelp: Help
+  ConnectEndLiveChatIcon: call_end
+  LexV2BotLocaleId: en_US
+  WebAppConfToolbarTitle: Order Flowers
+  TitleLogoImgUrl: ''
+  ChatBackgroundColor: ''
+  ConnectAgentJoinedMessage: '{Agent} has joined.'
+  ShouldEnableUpload: 'false'
+  ShouldEnableLiveChat: 'false'
+  CustomerChatBubble: ''
+  ShouldLoadIframeMinimized: 'false'
+  ConnectTranscriptMessageDelayInMsec: '150'
+  ConnectChatEndedMessage: Chat ended.
+  WebAppConfCname: ''
+  WebAppConfBotInitialUtterance: Welcome to the bento chatbot service!
+  CleanupBuckets: 'true'
+  BotAvatarImgUrl: ''
+  MessageMenu: 'false'
+  LexV2BotAliasId: ''
+  MinimizedButtonColor: ''
+  CognitoIdentityPoolId: ''
+  WebAppWafAclArn: ''
+  MessageTextColor: ''
+  AllowStreamingResponses: 'false'
+  HideButtonMessageBubble: 'false'
+  ToolbarColor: ''
+  EnableMarkdownSupport: 'true'
+  ReInitSessionAttributesOnRestart: 'false'
+  BotChatBubble: ''
+  WebAppConfBotInitialSpeech: Say 'Order food' to get started.
+  EnableCognitoLogin: 'false'
+  UploadBucket: ''
+  ConnectWaitForAgentMessageIntervalInSeconds: '60'
+  AllowedSignUpEmailDomain: ''
+  ConnectWaitForAgentMessage: Thanks for waiting. An agent will be with you when available.
+  retryCountPostTextTimeout: '1'
+  SaveHistory: 'false'
+  ConnectContactFlowId: ''
+  WebAppParentOrigin: ''
+  ConnectAgentLeftMessage: '{Agent} has left.'
+  BotNamePrefix: WebUi
+  WebAppConfBotInitialText: >-
+    You can ask me for help ordering food. Just type "Order food" or click on
+    the mic and say it.
+  BackButton: 'false'
+  ShowResponseCardTitle: 'false'
+  ShouldDeleteBot: 'true'
+  retryOnLexPostTextTimeout: 'false'
+  BotAlias: $LATEST
+  LexV2BotId: TYSLDYQ7XQ
+  CognitoIdentityPoolName: Lex Web UI
+tags: {}
